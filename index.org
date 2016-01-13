@@ -21,7 +21,7 @@
 **News**
 
 - Presentation at Magnetism and Magnetic Materials / Intermag meeting 2016 in San Diego, CA, US: AD-02.
-  Hans Fangohr /OOMMF Python interface and Jupyter integration/, 12 January 2016, Session AD Micromagnetics aI
+  Hans Fangohr /OOMMF Python interface and Jupyter integration/, 12 January 2016, Session AD Micromagnetics I
   #+HTML: (<a href="assets/2016-01-12-MMM2016-AD02-Jupyter-OOMMF.pdf">pdf</a>)
 
 ----------------------
