@@ -20,9 +20,8 @@
 
 **News**
 
-- Presentation at MMM2016 in San Diego: AD-02. Hans Fangohr /OOMMF Python interface and Jupyter integration/
-
-  Tuesday morning 8:42, Session AD MICROMAGNETICS I in SAPPHIRE 400
-
+- Presentation at Magnetism and Magnetic Materials / Intermag meeting 2016 in San Diego, CA, US: AD-02.
+  Hans Fangohr /OOMMF Python interface and Jupyter integration/, 12 January 2016, Session AD Micromagnetics aI
+  #+HTML: (<a href="assets/2016-01-12-MMM2016-AD02-Jupyter-OOMMF.pdf">pdf</a>)
 
 ----------------------
