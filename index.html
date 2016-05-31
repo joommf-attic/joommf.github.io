@@ -1,191 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<title>JOOMMF</title>
-<!-- 2016-01-13 Wed 15:17 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="Hans Fangohr" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  <meta charset="utf-8">
+  <title>Joommf</title>
+  <meta name="description" content="Joommf">
+  <meta name="author" content="Hans Fangohr">
+  <link rel="stylesheet" href="css/styles.css">
 
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  /*]]>*/-->
-</style>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/ubuntu:n7,n3,i7:all;lora:n4,n7,i7:all;ubuntu-condensed:n4:all.js" type="text/javascript">\x3C/script>');
 </script>
+
 </head>
+
 <body>
-<div id="content">
-<h1 class="title">JOOMMF</h1>
+<div id=wrapper>
+<div id=topbar>
+    <span id=topbar-title>
+    joommf
+    </span>
+    <span id=subheading>
+    Interactive Micromagnetic simulation in Jupyter
+    </span>
+</div>
+
+
+
+<img id=sim src="images/test-crop.png" alt="Image of relaxed strip" width=1100px>
+
+<div id=text1>
+<div id=functions>
+The Joommf project aims to integrate the popular Micromagnetic simulation package <a href=http://math.nist.gov/oommf/>OOMMF</a> with the Jupyter Notebook and Python.
 <p>
-<b><b>JOOMMF Project</b></b>
-</p>
-
-<ul class="org-ul">
-<li>Providing an interface to OOMMF (<a href="http://math.nist.gov/oommf/">http://math.nist.gov/oommf/</a>) through Jupyter (<a href="http://Jupyter.org">http://Jupyter.org</a>)
-</li>
-
-<li>JOOMMF project to start soon (February 2016?). At that point, we will provide a slicker webpage.
-</li>
-
-<li>Part of OpenDreamKit EU funding (<a href="http://opendreamkit.org">http://opendreamkit.org</a>)
-</li>
-
-<li>JOOMMF Homepage is joommf.github.io
-</li>
-
-<li>mailing list for announcements: <a href="https://groups.google.com/forum/#!forum/joommf-news">https://groups.google.com/forum/#!forum/joommf-news</a>
-</li>
-
-<li>email: jupyteroommf@gmail.com
-</li>
-
-<li>People: lead by Hans Fangohr and group at the University of Southampton (<a href="http://www.soton.ac.uk/~fangohr">http://www.soton.ac.uk/~fangohr</a>)
-</li>
-
-<li>Twitter: @joommf (<a href="http://twitter.com/joommf">http://twitter.com/joommf</a>)
-</li>
+<b> Easy to Script </b>
+<br>
+The use of Python allows non-specialist programmers to quickly get up to speed and run simulations.
+<p>
+<b> Powerful </b>
+<br>
+OOMMF is parallelised using OpenMP, allowing users to take advantage of multiple processors on shared-memory machines.
+<p>
+<b> Cross Platform </b>
+<br>
+Runs on Linux, OS X and Windows.
+</div>
+<p class=main_text>
+The project is broken into several independent toolkits:
+<ul id=repos TYPE="square">
+<li><a href=https://github.com/joommf/oommfc> oommfc </a>- a low-level Python wrapper for running OOMMF simulations. </li>
+<li><a href=https://github.com/joommf/oommffield> oommffield </a> - a Python module for reading, writing and plotting OMF files, outputted by OOMMF and other micromagnetics packages. </li>
+<li><a href=https://github.com/joommf/oommfodt> oommfodt </a> - a Python module which allows users to load ODT files into Pandas DataFrames. </li> 
 </ul>
 
+To get details about the project, we have a <a href=https://groups.google.com/forum/#!forum/joommf-news>Google Group</a>.
 <p>
-<b><b>News</b></b>
-</p>
-
-<ul class="org-ul">
-<li>Presentation at Magnetism and Magnetic Materials / Intermag meeting 2016 in San Diego, CA, US: AD-02.
-Hans Fangohr <i>OOMMF Python interface and Jupyter integration</i>, 12 January 2016, Session AD Micromagnetics I
-(<a href="assets/2016-01-12-MMM2016-AD02-Jupyter-OOMMF.pdf">pdf</a>)
-</li>
-</ul>
-
-<hr  />
+Joommf is part of the EU Horizon 2020 project <a href=http://opendreamkid.org>OpenDreamKit</a>.
+<p>
+<b> Contact </b>
+<div id=logos>
+<a href=https://twitter.com/joommf><img src=https://g.twimg.com/Twitter_logo_blue.png alt=Twitter width=35px></a>
+<a href=mailto:jupyteroommf@gmail.com><img src="images/email.png" alt=Email width=35px style="padding-top: 0px;"></a>
 </div>
-<div id="postamble" class="status">
-<p class="author">Author: Hans Fangohr</p>
-<p class="date">Created: 2016-01-13 Wed 15:17</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
+</div>
+<div id=footer>
+&copy; Computational Modelling Group, University of Southampton (2016).
+</div>
+
 </body>
 </html>
