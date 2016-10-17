@@ -8,5 +8,7 @@ categories: faqs
 
 Create an *issue* at https://github.com/joommf/help
 
-We use this as the central point for queries relating to the Python interface to OOMMF, OOMMFC, and in later stages of the project to the Jupyter Notebook integration and data analysis.
+We use this as the central point for queries relating to the Python
+interface to OOMMF, OOMMFC, and in later stages of the project to the
+Jupyter Notebook integration and data analysis.
 
