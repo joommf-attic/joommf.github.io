@@ -2,6 +2,7 @@
 layout: post
 title: Requests for help, features, contributions, ...
 categories: faqs
+display-order: 1
 ---
 
 # I have a query on some aspect of using the JOOMMF project

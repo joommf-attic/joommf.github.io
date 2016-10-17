@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: faqs
+display-order: 2
 ---
 
 ## How to cite the software?

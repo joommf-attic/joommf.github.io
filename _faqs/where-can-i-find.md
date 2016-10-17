@@ -2,6 +2,7 @@
 title: Where can I find ...?
 layout: post
 categories: faqs
+display-order: 3
 ---
 
 ## Where is the code?

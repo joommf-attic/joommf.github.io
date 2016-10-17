@@ -4,8 +4,9 @@
   </div>
 
   <div class="posts">
-
-    {% for faqs in site.categories.faqs %}
+    
+    {% assign faqs_list = site.faqs | sort: "display-order" %}
+    {% for faqs in faqs_list %}
       <div id="info-container">
         <h1 id="title">{{ faqs.title }}</h1>
       </div>
