@@ -8,6 +8,7 @@
     {% for news in site.categories.news %}
       <div id="info-container">
         <h1 id="title">{{ news.title }}</h1>
+        <span id="date"> {{ news.date | date_to_string }} </span>
       </div>
 
       <div class="post">

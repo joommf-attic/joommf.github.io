@@ -147,7 +147,7 @@ a:hover {
   padding-top: 0.25em;
   margin-bottom: 2em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
   color: #787878;
 }
 
@@ -175,7 +175,6 @@ a:hover {
 
 .post h2 {
   margin-top: 1.25em;
-  margin-left: -0.5em;
   margin-bottom: 1.25em;
 }
 
