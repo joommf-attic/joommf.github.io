@@ -1,0 +1,19 @@
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+
+  <div class="posts">
+    {% capture gs %}{% include get_started.md %}{% endcapture %}
+    
+    <div id="info-container">
+      <h1 id="title">Get Started</h1>
+    </div>
+
+    <div class="post">
+      {{ gs  | markdownify }}
+    </div>
+
+  </div>
+
+</div>
