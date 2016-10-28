@@ -6,7 +6,7 @@ Notebook.
 
 At the moment (late 2016), we have a beta prototype of a Python
 interface to OOMMF. This interface is called OOMMFC. The C stands for
-Calculater: we use OOMMF as a micromagnetic calculator: the actual
+Calculator: we use OOMMF as a micromagnetic calculator: the actual
 micromagnetic computation is done by OOMMF, and the OOMMFC python
 module provides a high level interface to this.
 
