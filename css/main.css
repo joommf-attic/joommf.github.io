@@ -132,7 +132,6 @@ a:hover {
   padding-top: 1.25em;
   padding-bottom: 1.5em;
   overflow: hidden;
-  float: center;
   text-align: center;
 }
 
@@ -291,6 +290,25 @@ a:hover {
 #sidebar-button:active,
 #sidebar-button:hover {
   opacity: 0.7;
+}
+
+.sidebar-icon {
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  /*
+  border: 1px solid black;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  bottom: 0;
+  */
+}
+
+.sidebar-icon img:hover{ 
+  position: relative; 
+  top: -10px;
 }
 
 /*****************************************************************************/

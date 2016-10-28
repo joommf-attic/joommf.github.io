@@ -25,34 +25,50 @@
   <body>
     <div class="site">
       <div class="sidebar" id="sidebar">
+
         <div class="header">
           <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
           <span class="tagline"> Interactive Micromagnetic simulation in Jupyter</span>
-        </div>
+        </div> <!-- close header -->
+
         <div class="menu">
           <ul class="menu-list">
-              <li class="menu-link">
-                <a class="menu-title" href="get_started.html"> Get Started </a>
-              </li>
-              <li class="menu-link">
-                <a class="menu-title" href="news.html"> News </a>
-              </li>
-              <!-- <li class="menu-link">
-                <a class="menu-title" href="{{ post.url }}"> Tutorial </a> -->
-              <li class="menu-link">
-                <a class="menu-title" href="faqs.html"> Frequently Asked Questions  </a>
-              </li>
-              </li>
+            <li class="menu-link">
+              <a class="menu-title" href="get_started.html"> Get Started </a>
+            </li>
+            <li class="menu-link">
+              <a class="menu-title" href="news.html"> News </a>
+            </li>
+            <!-- <li class="menu-link">
+              <a class="menu-title" href="{{ post.url }}"> Tutorial </a> -->
+            <li class="menu-link">
+              <a class="menu-title" href="faqs.html"> Frequently Asked Questions  </a>
+            </li>
+            </li>
           </ul>
-        </div>
+        </div> <!-- close menu -->
+
         <div class="footer">
-          <span id="footer-links">
-            <a href="mailto:jupyteroommf@gmail.com" class="footer-link">Email</a> <span class="separator">&bull;</span>
-            <a href="https://twitter.com/joommf" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="https://github.com/joommf" class="footer-link">GitHub</a>
-          </span>
-        </div>
-      </div>
+          <div class="sidebar-icon">
+            <a href="mailto:jupyteroommf@gmail.com" class="footer-link"><img src="images/email.png" width=50px></a>
+            Email
+          </div>
+          <span class="separator">&nbsp;</span>
+
+          <div class="sidebar-icon">
+            <a href="https://twitter.com/joommf" class="footer-link"><img src="images/twitter.png" width=50px></a>
+            Twitter
+          </div>
+          <span class="separator">&nbsp;</span>
+
+          <div class="sidebar-icon">
+            <a href="https://github.com/joommf" class="footer-link"><img src="images/github.png" width=50px></a>
+            Github
+          </div>
+        
+        </div> <!-- close footer -->
+      
+      </div> <!-- close sidebar -->
 
         {{ content }}
 
