@@ -226,6 +226,11 @@ a:hover {
   background-color: #333;
 }
 
+#post-getstarted h1 {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
 /*****************************************************************************/
 /*
 /* Sidebar and Content

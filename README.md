@@ -34,6 +34,6 @@ SOFTWARE.
 Icons License
 ===
 
-The icons are a modification of the icons in
+The sidebar icons are a modification of the icons in
 [https://github.com/EmgrtE/Cubic_Icons](https://github.com/EmgrtE/Cubic_Icons),
 which are licensed under the GNU GPL v2.0 license.
