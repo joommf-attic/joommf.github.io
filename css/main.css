@@ -317,7 +317,7 @@ a:hover {
 
 .colophon {
 
-  position: absolute; 
+  position: relative; 
   bottom: 0;
   margin-top: 1.5em;
   margin-bottom: 1.45em;
@@ -360,11 +360,42 @@ a:hover {
 /*
 /*****************************************************************************/
 
+#features-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+
+#features-title:before, #features-title:after {
+  background-color: #ddd;
+  content: '\a0';
+  flex-grow: 1;
+  height: 1px;
+  position: relative;
+  top: 0.5em;
+}
+
+#features-title:before {
+  margin-right:10px;
+}
+
+#features-title:after {
+  margin-left:10px;
+}
+
 .features {
   padding-top: 1.5em;
   padding-bottom: 1.25em;
-  margin-top: 3em;
   display: block;
+}
+
+.features h1 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .features p {
@@ -372,25 +403,4 @@ a:hover {
   padding: 2em;
   text-align: center;
   line-height: 1.25em;
-}
-
-
-.features-extra {
-  margin-top: 2em;
-}
-
-.features-extra a {
-  font-weight: bold;
-}
-
-.features-extra h1 {
-  text-transform: none;
-  margin-bottom: 1em;
-  line-height: 1.25em;
-}
-
-.features-extra p {
-  text-align: justify;
-  padding: 1em;
-  margin-right: 2em;
 }
