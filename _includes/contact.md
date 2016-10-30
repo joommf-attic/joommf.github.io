@@ -20,9 +20,12 @@ We have a number of communication channels available:
 - Email the project team:
   [jupyteroommf@gmail.com](mailto:jupyteroommf@gmail.com)
 
-- Checkout the webpage of the project: http://joommf.github.io
+- Checkout the webpage of the project:
+  [http://joommf.github.io](http://joommf.github.io)
 
 - If you are a developer, feel free to look at the source code (all
-  repositories are in the https://github.com/joommf organisation. Pull
-  requests or design suggestions welcome!
+  repositories are in the
+  [https://github.com/joommf](http://joommf.github.io) organisation.
+
+  Pull requests or design suggestions welcome!
 
