@@ -25,7 +25,7 @@ We have a number of communication channels available:
 
 - If you are a developer, feel free to look at the source code (all
   repositories are in the
-  [https://github.com/joommf](http://joommf.github.io) organisation.
+  [https://github.com/joommf](http://github.com/joommf) organisation.
 
   Pull requests or design suggestions welcome!
 
