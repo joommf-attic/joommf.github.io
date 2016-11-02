@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop on installing and using the OOMMF Python interface ("OOMMFC")
-date:   2016-11-01 10:00:00
+date:   2016-11-02 10:00:00
 categories: news
 ---
 
