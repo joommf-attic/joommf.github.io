@@ -21,7 +21,7 @@ which is written in Python (and thus you need a Python distribution
 installed).
 
 The best starting point are the installation instructions that are
-part of the [OOMMF Documentation](http://oommfc.readthedocs.io).
+part of the [OOMMFC Documentation](http://oommfc.readthedocs.io).
 
 
 
