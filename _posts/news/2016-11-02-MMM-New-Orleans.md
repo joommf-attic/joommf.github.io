@@ -16,6 +16,6 @@ prototype of this Python interface is presented in the Micromagnetics
 session (*CF-03. Python interface for OOMMF*) at 8:54 on Wednesday 2
 November 2016 in New Orleans.
 
-Here are the [slides (pdf)](assets/2016-11-02-MMM2016-CF-03-Python-OOMMF.pdf)
+Here are the [slides (pdf)](assets/2016-11-02-MMM2016-CF-03-Python-OOMMF.pdf).
 
 
