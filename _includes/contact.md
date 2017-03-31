@@ -10,6 +10,8 @@ We have a number of communication channels available:
   [joommf-users](https://groups.google.com/forum/#!forum/joommf-news)
   mailing list. Used for discussion, queries etc from users.
 
+- Ask questions on our Gitter [channel](https://gitter.im/joommf/support)
+
 - If you have a feature request, support query and you are familiar
   with Github (or don't mind using it), please consider submitting an
   "issue" on the [joommf/help](https://github.com/joommf/help)
