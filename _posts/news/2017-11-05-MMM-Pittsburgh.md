@@ -5,8 +5,6 @@ date:  2017-11-07 17:00:00
 categories: news
 ---
 
-## JOOMMF workshop at MMM2017, Pittsburgh, UK
-
 We run 2 Workshops and drop-in sessions during the 62nd Annual Conference on
 Magnetism and Magnetic Materials on
 
@@ -20,4 +18,4 @@ package.
 No need to register, just come along. If you want us to help you
 install JOOMMF on your machine, please bring your laptop with you.
 
-Place: Will be announced soon.
+Place: At the benches in front of the "Magnetism as Art Showcase" poster boards. 
