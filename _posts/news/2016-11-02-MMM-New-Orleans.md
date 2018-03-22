@@ -5,8 +5,6 @@ date:   2016-11-02 08:54:00
 categories: news
 ---
 
-## The OOMMF Calculator (Python interface to OOMMF)
-
 An important step towards micromagnetic calculations within the
 [Jupyter Notebook](http://jupyter.org) is the provision of a Python
 interface that allows to drive the OOMMF simulation software.
