@@ -5,3 +5,4 @@ published: true
 collections:
     faqs:
         output: true
+future: true

@@ -13,4 +13,4 @@ JOOMMF, he will be able to provide an introduction to JOOMMF. If you
 would like to talk to him, please email jupyteroommf@gmail.com at your
 earliest convenience to agree on the time and place.
 
-[More...](/_posts/news/2018-04-23-Intermag-Singapore.md)
+[More...](news/2018/04/23/Intermag-Singapore.html)
