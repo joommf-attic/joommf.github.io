@@ -12,3 +12,5 @@ feedback and feature requests. If you would like to start using
 JOOMMF, he will be able to provide an introduction to JOOMMF. If you
 would like to talk to him, please email jupyteroommf@gmail.com at your
 earliest convenience to agree on the time and place.
+
+[More...](2018-04-23-Intermag-Singapore.md)
