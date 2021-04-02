@@ -1,8 +1,0 @@
-name: Flex
-markdown: kramdown
-highlighter: rouge
-published: true
-collections:
-    faqs:
-        output: true
-future: true
